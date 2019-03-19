@@ -119,8 +119,10 @@ C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\bin\Microsoft.AI.DependencyColl
 C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\bin\Microsoft.AI.Web.xml
 C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\obj\Debug\LinkedInMVC.csprojAssemblyReference.cache
 C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\obj\Debug\LinkedInMVC.csproj.CoreCompileInputs.cache
 C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\obj\Debug\LinkedInMVC.csproj.CopyComplete
 C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\obj\Debug\LinkedInMVC.dll
 C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\obj\Debug\LinkedInMVC.pdb
+C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\obj\Debug\LinkedInMVC.Migrations.InitialCreate.resources
+C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\obj\Debug\LinkedInMVC.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\LinkedInMVC\LinkedInMVC\obj\Debug\LinkedInMVC.Migrations.test.resources

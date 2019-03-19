@@ -16,6 +16,9 @@ namespace LinkedInMVC.Models
             // Add custom user claims here
             return userIdentity;
         }
+        //Adding First and last names to user table
+        public string FirstName { get; set; }
+        public string SecondName { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

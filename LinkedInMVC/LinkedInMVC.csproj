@@ -217,17 +217,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201903201148080_test.cs" />
-    <Compile Include="Migrations\201903201148080_test.Designer.cs">
-      <DependentUpon>201903201148080_test.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201903201528123_test2.cs" />
-    <Compile Include="Migrations\201903201528123_test2.Designer.cs">
-      <DependentUpon>201903201528123_test2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201903201631099_test21.cs" />
-    <Compile Include="Migrations\201903201631099_test21.Designer.cs">
-      <DependentUpon>201903201631099_test21.cs</DependentUpon>
+    <Compile Include="Migrations\201903202104378_tessst.cs" />
+    <Compile Include="Migrations\201903202104378_tessst.Designer.cs">
+      <DependentUpon>201903202104378_tessst.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -236,12 +228,17 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\UnitofWork.cs" />
     <Compile Include="Models\UserCompany.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\LinkedInMVC.dll" />
+    <Content Include="bin\LinkedInMVC.pdb" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -268,6 +265,7 @@
     <Content Include="sass\base\_typography.scss" />
     <Content Include="sass\main.scss" />
     <Content Include="sass\vendors\_custom.scss" />
+    <Content Include="npm-debug.log" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -313,6 +311,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_Layout2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -335,14 +334,8 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201903201148080_test.resx">
-      <DependentUpon>201903201148080_test.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201903201528123_test2.resx">
-      <DependentUpon>201903201528123_test2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201903201631099_test21.resx">
-      <DependentUpon>201903201631099_test21.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903202104378_tessst.resx">
+      <DependentUpon>201903202104378_tessst.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

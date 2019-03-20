@@ -14340,3 +14340,111 @@ body {
 .navbar {
   padding: 0rem;
   margin: 0rem; }
+
+.regestration {
+    background-image: url("../Images/linkedin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.registe {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    width: 36rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 24px;
+}
+
+.registe__agree {
+    background-color: #287bbc;
+    height: 32px;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-color: #246AA5;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-left-style: none;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    text-transform: capitalize;
+}
+
+    .registe__agree:hover {
+        background-color: #246AA5;
+        cursor: pointer;
+    }
+
+.regestration-layout {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 992px) {
+    .col-md-2 {
+        width: 42.666667%;
+    }
+}
+
+@media (min-width: 768px) {
+    .form-horizontal .control-label {
+        width: 153px;
+        text-align: left;
+    }
+}
+
+.form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media (min-width: 992px) {
+    .col-md-10 {
+        width: 99.333333%;
+    }
+}
+
+.title {
+    font-size: 2.4rem;
+    line-height: 1.33333;
+    font-weight: 200;
+    color: rgba(0,0,0,0.9);
+    -webkit-box-flex: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+    background: #F6F8FA;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    -webkit-box-flex: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+    position: relative;
+    z-index: 1;
+    background: #F6F8FA;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    margin: 0;
+}

@@ -39,6 +39,11 @@
 //         }
 //     }
 // }
+body
+{
+    padding-top: 0px;
+     padding-bottom: 0px;
+}
 .navbar-toggler-icon
 {
     background-color: $white;
@@ -71,6 +76,8 @@
 }
 .nav-link
 {
+    padding: 0rem;
+    margin: 0rem;
     color: $white;
     display: flex;
     flex-direction: column;
@@ -80,4 +87,37 @@
 .navbar-toggler-icon
 {
     background-color: $white;
-} 
+}
+.nav-link-item
+{
+    color: $white;
+    text-decoration: none;
+    padding: 0rem;
+    margin: 0rem;
+    &:hover
+    {
+        color: $white;
+        text-decoration: none;
+    }
+}
+.nav-item
+{
+    padding: 0 1rem;
+}
+.navbar-nav
+{
+ li
+ {
+    a
+    {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+ }
+}
+.navbar
+{
+    padding: 0rem;
+    margin: 0rem;
+}
+

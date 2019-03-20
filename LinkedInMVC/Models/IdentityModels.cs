@@ -39,5 +39,9 @@ namespace LinkedInMVC.Models
         public DbSet<Company> Company { get; set; }
         public DbSet<UserCompany> UserCompany { get; set; }
 
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<Like> Likes { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+
     }
 }

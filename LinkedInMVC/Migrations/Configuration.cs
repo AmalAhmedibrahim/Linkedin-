@@ -10,7 +10,6 @@ namespace LinkedInMVC.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "LinkedInMVC.Models.ApplicationDbContext";
         }
 
         protected override void Seed(LinkedInMVC.Models.ApplicationDbContext context)

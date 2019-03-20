@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class Repository<TEntity, Context> : IRepository<TEntity>
+    public class Repository<TEntity, Context> : Repository<TEntity>
         where TEntity : class, new()
         where Context : ApplicationDbContext
     {

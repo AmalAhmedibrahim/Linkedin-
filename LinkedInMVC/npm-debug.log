@@ -1,0 +1,166 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.3.4
+3 info using node@v5.4.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData jquery-ajax-unobtrusive
+20 silly mapToRegistry name jquery-ajax-unobtrusive
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/jquery-ajax-unobtrusive
+24 silly fetchNamedPackageData jquery-validation-unobtrusive
+25 silly mapToRegistry name jquery-validation-unobtrusive
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/jquery-validation-unobtrusive
+29 silly fetchNamedPackageData @fortawesome/fontawesome-free
+30 silly mapToRegistry name @fortawesome/fontawesome-free
+31 silly mapToRegistry scope (from package name) @fortawesome
+32 verbose mapToRegistry no registry URL found in name for scope @fortawesome
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/@fortawesome%2ffontawesome-free
+36 verbose request uri https://registry.npmjs.org/jquery-validation-unobtrusive
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 6:14:48 PM
+39 verbose request id e2a0a5e6ecfcc602
+40 http request GET https://registry.npmjs.org/jquery-validation-unobtrusive
+41 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+42 verbose request uri https://registry.npmjs.org/jquery-ajax-unobtrusive
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 6:14:49 PM
+45 verbose etag W/"9f28a9a6397ad2c22f4b7b4b936060e5"
+46 verbose lastModified Fri, 04 Jan 2019 06:22:55 GMT
+47 http request GET https://registry.npmjs.org/jquery-ajax-unobtrusive
+48 verbose request uri https://registry.npmjs.org/@fortawesome%2ffontawesome-free
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 6:14:49 PM
+51 verbose etag W/"51a0c80a9bf41fb3ff319a5d0f9d015a"
+52 verbose lastModified Tue, 12 Feb 2019 17:15:56 GMT
+53 http request GET https://registry.npmjs.org/@fortawesome%2ffontawesome-free
+54 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+55 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+56 info attempt registry request try #2 at 6:14:59 PM
+57 http request GET https://registry.npmjs.org/jquery-validation-unobtrusive
+58 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+59 info attempt registry request try #2 at 6:14:59 PM
+60 verbose etag W/"9f28a9a6397ad2c22f4b7b4b936060e5"
+61 verbose lastModified Fri, 04 Jan 2019 06:22:55 GMT
+62 http request GET https://registry.npmjs.org/jquery-ajax-unobtrusive
+63 info attempt registry request try #2 at 6:14:59 PM
+64 verbose etag W/"51a0c80a9bf41fb3ff319a5d0f9d015a"
+65 verbose lastModified Tue, 12 Feb 2019 17:15:56 GMT
+66 http request GET https://registry.npmjs.org/@fortawesome%2ffontawesome-free
+67 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+68 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+69 info attempt registry request try #3 at 6:15:59 PM
+70 http request GET https://registry.npmjs.org/jquery-validation-unobtrusive
+71 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+71 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+71 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+71 silly fetchPackageMetaData  error for jquery-validation-unobtrusive@3.2.11 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+71 silly fetchPackageMetaData   code: 'ENOTFOUND',
+71 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+71 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+71 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+71 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+71 silly fetchPackageMetaData   port: 443 }
+72 info attempt registry request try #3 at 6:15:59 PM
+73 verbose etag W/"9f28a9a6397ad2c22f4b7b4b936060e5"
+74 verbose lastModified Fri, 04 Jan 2019 06:22:55 GMT
+75 http request GET https://registry.npmjs.org/jquery-ajax-unobtrusive
+76 info attempt registry request try #3 at 6:15:59 PM
+77 verbose etag W/"51a0c80a9bf41fb3ff319a5d0f9d015a"
+78 verbose lastModified Tue, 12 Feb 2019 17:15:56 GMT
+79 http request GET https://registry.npmjs.org/@fortawesome%2ffontawesome-free
+80 silly get cb [ 304, undefined ]
+81 verbose etag https://registry.npmjs.org/jquery-ajax-unobtrusive from cache
+82 verbose get saving jquery-ajax-unobtrusive to C:\Users\Ahmed Abd-Elwasaa\AppData\Roaming\npm-cache\registry.npmjs.org\jquery-ajax-unobtrusive\.cache.json
+83 silly get cb [ 304, undefined ]
+84 verbose etag https://registry.npmjs.org/@fortawesome%2ffontawesome-free from cache
+85 verbose get saving @fortawesome/fontawesome-free to C:\Users\Ahmed Abd-Elwasaa\AppData\Roaming\npm-cache\registry.npmjs.org\_40fortawesome_252ffontawesome-free\.cache.json
+86 silly resolveWithNewModule @fortawesome/fontawesome-free@5.7.2 checking installable status
+87 warn engine @fortawesome/fontawesome-free@5.7.2: wanted: {"node":">=6"} (current: {"node":"5.4.1","npm":"3.3.4"})
+88 silly cache add args [ '@fortawesome/fontawesome-free@5.7.2', null ]
+89 verbose cache add spec @fortawesome/fontawesome-free@5.7.2
+90 silly cache add parsed spec Result {
+90 silly cache add   raw: '@fortawesome/fontawesome-free@5.7.2',
+90 silly cache add   scope: '@fortawesome',
+90 silly cache add   name: '@fortawesome/fontawesome-free',
+90 silly cache add   rawSpec: '5.7.2',
+90 silly cache add   spec: '5.7.2',
+90 silly cache add   type: 'version' }
+91 silly addNamed @fortawesome/fontawesome-free@5.7.2
+92 verbose addNamed "5.7.2" is a plain semver version for @fortawesome/fontawesome-free
+93 silly mapToRegistry name @fortawesome/fontawesome-free
+94 silly mapToRegistry scope (from package name) @fortawesome
+95 verbose mapToRegistry no registry URL found in name for scope @fortawesome
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry uri https://registry.npmjs.org/@fortawesome%2ffontawesome-free
+99 verbose addNameVersion registry:https://registry.npmjs.org/@fortawesome%2ffontawesome-free not in flight; fetching
+100 silly resolveWithNewModule jquery-ajax-unobtrusive@3.2.6 checking installable status
+101 silly cache add args [ 'jquery-ajax-unobtrusive@3.2.6', null ]
+102 verbose cache add spec jquery-ajax-unobtrusive@3.2.6
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'jquery-ajax-unobtrusive@3.2.6',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'jquery-ajax-unobtrusive',
+103 silly cache add   rawSpec: '3.2.6',
+103 silly cache add   spec: '3.2.6',
+103 silly cache add   type: 'version' }
+104 silly addNamed jquery-ajax-unobtrusive@3.2.6
+105 verbose addNamed "3.2.6" is a plain semver version for jquery-ajax-unobtrusive
+106 silly mapToRegistry name jquery-ajax-unobtrusive
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/jquery-ajax-unobtrusive
+110 verbose addNameVersion registry:https://registry.npmjs.org/jquery-ajax-unobtrusive not in flight; fetching
+111 verbose get https://registry.npmjs.org/jquery-ajax-unobtrusive not expired, no request
+112 verbose get https://registry.npmjs.org/@fortawesome%2ffontawesome-free not expired, no request
+113 silly cache afterAdd jquery-ajax-unobtrusive@3.2.6
+114 verbose afterAdd C:\Users\Ahmed Abd-Elwasaa\AppData\Roaming\npm-cache\jquery-ajax-unobtrusive\3.2.6\package\package.json not in flight; writing
+115 silly cache afterAdd @fortawesome/fontawesome-free@5.7.2
+116 verbose afterAdd C:\Users\Ahmed Abd-Elwasaa\AppData\Roaming\npm-cache\@fortawesome\fontawesome-free\5.7.2\package\package.json not in flight; writing
+117 verbose afterAdd C:\Users\Ahmed Abd-Elwasaa\AppData\Roaming\npm-cache\jquery-ajax-unobtrusive\3.2.6\package\package.json written
+118 verbose afterAdd C:\Users\Ahmed Abd-Elwasaa\AppData\Roaming\npm-cache\@fortawesome\fontawesome-free\5.7.2\package\package.json written
+119 silly rollbackFailedOptional Starting
+120 silly rollbackFailedOptional Finishing
+121 silly runTopLevelLifecycles Starting
+122 silly runTopLevelLifecycles Finishing
+123 silly install printInstalled
+124 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+124 verbose stack     at errnoException (dns.js:26:10)
+124 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+125 verbose cwd D:\iti preprations\ITIAssignments\LinkedInMVC\Linkedin-\LinkedInMVC
+126 error Windows_NT 10.0.17134
+127 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install"
+128 error node v5.4.1
+129 error npm  v3.3.4
+130 error code ENOTFOUND
+131 error errno ENOTFOUND
+132 error syscall getaddrinfo
+133 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+133 error network This is most likely not a problem with npm itself
+133 error network and is related to network connectivity.
+133 error network In most cases you are behind a proxy or have bad network settings.
+133 error network
+133 error network If you are behind a proxy, please make sure that the
+133 error network 'proxy' config is set properly.  See: 'npm help config'
+134 verbose exit [ 1, true ]

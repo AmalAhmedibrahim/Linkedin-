@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinkedInMVC.Repository
 {
-    public interface IRepository<TEntity>
+    public interface Repository<TEntity>
     {
         List<TEntity> GetAll();
         TEntity GetById(params object[] id);

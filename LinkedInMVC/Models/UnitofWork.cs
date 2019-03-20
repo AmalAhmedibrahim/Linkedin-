@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Identity.Owin;
+﻿using LinkedInMVC.BLL;
+using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using System;
 using System.Collections.Generic;
@@ -13,13 +14,19 @@ namespace LinkedInMVC.Models
         private readonly ApplicationDbContext context;
         public ApplicationRoleManager RoleManager { get; private set; }
         public ApplicationUserManager UserManager { get; private set; }
+        public CompanyManager CompanyManager { get; set; }// unit of work for company manager
+        public UserCompanyManager UserCompanyManager { get; set; }// unit of work for usercompany manager
+
 
         public UnitofWork(IOwinContext owinContext)
         {
             context = owinContext.Get<ApplicationDbContext>();
             RoleManager = owinContext.Get<ApplicationRoleManager>();
             UserManager = owinContext.Get<ApplicationUserManager>();
+            CompanyManager = owinContext.Get<CompanyManager>();  // initialize company manager property
+            UserCompanyManager = owinContext.Get<UserCompanyManager>(); // initialize usercompany manager property
         }
+
 
 
 

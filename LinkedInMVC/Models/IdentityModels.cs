@@ -22,6 +22,15 @@ namespace LinkedInMVC.Models
         //Adding First and last names to user table
         public string FirstName { get; set; }
         public string SecondName { get; set; }
+
+        public string ProfileImage { get; set; }
+
+        public string ProfileCover { get; set; }
+
+        public string Title { get; set; }
+        public string Country { get; set; }
+
+        public int NumOfConnections { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
@@ -42,6 +51,16 @@ namespace LinkedInMVC.Models
         public DbSet<Post> Posts { get; set; }
         public DbSet<Like> Likes { get; set; }
         public DbSet<Comment> Comments { get; set; }
+
+
+        public DbSet<Education> Educations { get; set; }
+         public DbSet<UserEducation> UserEducation { get; set; }
+      
+        public DbSet<Experience> Experience { get; set; }
+        public DbSet<UserExperience> UserExperiences { get; set; }
+
+
+
 
     }
 }

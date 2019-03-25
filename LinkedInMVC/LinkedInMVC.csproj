@@ -217,24 +217,24 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201903202129057_test1.cs" />
-    <Compile Include="Migrations\201903202129057_test1.Designer.cs">
-      <DependentUpon>201903202129057_test1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201903202201499_testPost.cs" />
-    <Compile Include="Migrations\201903202201499_testPost.Designer.cs">
-      <DependentUpon>201903202201499_testPost.cs</DependentUpon>
+    <Compile Include="Migrations\201903211034566_AmalTest.cs" />
+    <Compile Include="Migrations\201903211034566_AmalTest.Designer.cs">
+      <DependentUpon>201903211034566_AmalTest.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\Education.cs" />
+    <Compile Include="Models\Experience.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Like.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Models\UnitofWork.cs" />
     <Compile Include="Models\UserCompany.cs" />
+    <Compile Include="Models\UserEducation.cs" />
+    <Compile Include="Models\UserExperience.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -273,6 +273,8 @@
     <Content Include="sass\main.scss" />
     <Content Include="sass\vendors\_custom.scss" />
     <Content Include="npm-debug.log" />
+    <Content Include="sass\components\_cards.scss" />
+    <Content Include="sass\layout\_Profile.scss" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -324,8 +326,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="sass\components\" />
-    <Folder Include="sass\layout\" />
     <Folder Include="sass\pages\" />
     <Folder Include="sass\themes\" />
   </ItemGroup>
@@ -343,11 +343,8 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201903202129057_test1.resx">
-      <DependentUpon>201903202129057_test1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201903202201499_testPost.resx">
-      <DependentUpon>201903202201499_testPost.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903211034566_AmalTest.resx">
+      <DependentUpon>201903211034566_AmalTest.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

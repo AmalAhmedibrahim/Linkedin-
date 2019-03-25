@@ -638,9 +638,6 @@ C:\Users\hp\source\repos\LinkedInMVC\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC
 C:\Users\hp\source\repos\LinkedInMVC\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.csproj.CopyComplete
 C:\Users\hp\source\repos\LinkedInMVC\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.dll
 C:\Users\hp\source\repos\LinkedInMVC\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.pdb
-C:\Users\hp\source\repos\LinkedInMVC\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.Migrations.test1.resources
-C:\Users\hp\source\repos\LinkedInMVC\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.csproj.GenerateResource.cache
-C:\Users\hp\source\repos\LinkedInMVC\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.Migrations.testPost.resources
 E:\ITI\MVC\Linkedin\Linkedin-\Linkedin-\LinkedInMVC\bin\ApplicationInsights.config
 E:\ITI\MVC\Linkedin\Linkedin-\Linkedin-\LinkedInMVC\bin\LinkedInMVC.dll.config
 E:\ITI\MVC\Linkedin\Linkedin-\Linkedin-\LinkedInMVC\bin\LinkedInMVC.dll
@@ -769,3 +766,5 @@ E:\ITI\MVC\Linkedin\Linkedin-\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.pdb
 E:\ITI\MVC\Linkedin\Linkedin-\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.csprojAssemblyReference.cache
 E:\ITI\MVC\Linkedin\Linkedin-\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.Migrations.AmalTest.resources
 E:\ITI\MVC\Linkedin\Linkedin-\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\LinkedInMVC\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.Migrations.test.resources
+C:\Users\hp\source\repos\LinkedInMVC\Linkedin-\LinkedInMVC\obj\Debug\LinkedInMVC.csproj.GenerateResource.cache

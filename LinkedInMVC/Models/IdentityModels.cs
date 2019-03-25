@@ -11,7 +11,7 @@ namespace LinkedInMVC.Models
     public class ApplicationUser : IdentityUser
     {
         public virtual ICollection<UserCompany> UserCompanies { get; set; }
-
+        
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
@@ -31,7 +31,11 @@ namespace LinkedInMVC.Models
         public string Country { get; set; }
 
         public int NumOfConnections { get; set; }
+
+        public ICollection<UserEducation> Usereducations = new List<UserEducation>();
+        public ICollection<UserExperience> UserExperiences = new List<UserExperience>();
     }
+
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

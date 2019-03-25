@@ -207,7 +207,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="BLL\CommentManager.cs" />
     <Compile Include="BLL\CompanyManager.cs" />
+    <Compile Include="BLL\LikeManager.cs" />
+    <Compile Include="BLL\PostManager.cs" />
     <Compile Include="BLL\Test.cs" />
     <Compile Include="BLL\UserActions.cs" />
     <Compile Include="BLL\UserCompanyManager.cs" />
@@ -217,9 +220,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201903211034566_AmalTest.cs" />
-    <Compile Include="Migrations\201903211034566_AmalTest.Designer.cs">
-      <DependentUpon>201903211034566_AmalTest.cs</DependentUpon>
+    <Compile Include="Migrations\201903250910247_test.cs" />
+    <Compile Include="Migrations\201903250910247_test.Designer.cs">
+      <DependentUpon>201903250910247_test.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -343,8 +346,8 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201903211034566_AmalTest.resx">
-      <DependentUpon>201903211034566_AmalTest.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903250910247_test.resx">
+      <DependentUpon>201903250910247_test.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

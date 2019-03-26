@@ -13,7 +13,7 @@ namespace LinkedInMVC.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201903250910247_test"; }
+            get { return "201903261035503_test"; }
         }
         
         string IMigrationMetadata.Source

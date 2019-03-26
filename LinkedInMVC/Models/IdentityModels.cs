@@ -63,6 +63,9 @@ namespace LinkedInMVC.Models
         public DbSet<Experience> Experience { get; set; }
         public DbSet<UserExperience> UserExperiences { get; set; }
 
+        //CONNECTION
+        public DbSet<Connection_Request> Connection_Requeset { get; set; }
+
 
 
 

@@ -12,6 +12,7 @@ namespace LinkedInMVC.BLL
         public PostManager(ApplicationDbContext context) : base(context)
         {
         }
+        
         //public static List<Post> GetAllByDate(string userId)
         //{
         //    List<Guid> cons = AppManager.linkedInContext

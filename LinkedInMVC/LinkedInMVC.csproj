@@ -249,6 +249,7 @@
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModel\ConnectionViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\LinkedInMVC.dll" />
@@ -335,12 +336,12 @@
     <Content Include="Views\Educations\Details.cshtml" />
     <Content Include="Views\Educations\Edit.cshtml" />
     <Content Include="Views\Educations\Index.cshtml" />
+    <Content Include="Views\Connection\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="sass\pages\" />
     <Folder Include="sass\themes\" />
-    <Folder Include="Views\Connection\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

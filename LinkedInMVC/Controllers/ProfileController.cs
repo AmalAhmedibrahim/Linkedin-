@@ -26,7 +26,7 @@ namespace LinkedInMVC.Controllers
             var EducationData = UnitofWork.EducationManager.GetAll();
             var ExperienceData = UnitofWork.ExperienceManager.GetAll();
             var user = User.Identity.GetUserId();
-            var userData = UnitofWork.AmalUserManager.GetById(user);
+            var userData = UnitofWork.UserDetailsManager.GetById(user);
            
             return View();
         }

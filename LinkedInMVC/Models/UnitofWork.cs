@@ -34,7 +34,7 @@ namespace LinkedInMVC.Models
                 return new EducationManager(context);
             }
         }
-        public UserManager AmalUserManager
+        public UserManager UserDetailsManager
         {
             get
             {

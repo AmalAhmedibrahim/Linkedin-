@@ -8,18 +8,8 @@ using Microsoft.AspNet.Identity.EntityFramework;
 namespace LinkedInMVC.Models
 {
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
-    public class ApplicationUser : IdentityUser
+    public class ApplicationUser : IdentityUser 
     {
-        public virtual ICollection<UserCompany> UserCompanies { get; set; }
-        
-        public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
-        {
-            // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
-            var userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
-            // Add custom user claims here
-            return userIdentity;
-        }
-        //Adding First and last names to user table
         public string FirstName { get; set; }
         public string SecondName { get; set; }
 
@@ -27,13 +17,22 @@ namespace LinkedInMVC.Models
 
         public string ProfileCover { get; set; }
 
-        public string Title { get; set; }
+        public string CurrentCopmany { get; set; }
+        public string Headline { get; set; }
         public string Country { get; set; }
-
         public int NumOfConnections { get; set; }
+        public virtual ICollection<UserCompany> UserCompanies { get; set; }
 
-        public ICollection<UserEducation> Usereducations = new List<UserEducation>();
+        public ICollection<UserEducation> UserEducations = new List<UserEducation>();
         public ICollection<UserExperience> UserExperiences = new List<UserExperience>();
+
+        public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
+        {
+            // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
+            var userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
+            // Add custom user claims here
+            return userIdentity;
+        }
     }
 
 
@@ -63,6 +62,9 @@ namespace LinkedInMVC.Models
         public DbSet<Experience> Experience { get; set; }
         public DbSet<UserExperience> UserExperiences { get; set; }
 
+        //CONNECTION
+        public DbSet<Connection_Request> Connection_Requeset { get; set; }
+       
 
 
 

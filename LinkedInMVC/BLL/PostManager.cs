@@ -9,9 +9,13 @@ namespace LinkedInMVC.BLL
 {
     public class PostManager : Repository<Comment, ApplicationDbContext>
     {
+        private ApplicationDbContext context ;
         public PostManager(ApplicationDbContext context) : base(context)
         {
+            context = this.context;
+            
         }
+
         //public static List<Post> GetAllByDate(string userId)
         //{
         //    List<Guid> cons = AppManager.linkedInContext

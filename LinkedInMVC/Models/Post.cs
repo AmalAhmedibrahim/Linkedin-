@@ -21,6 +21,7 @@ namespace LinkedInMVC.Models
         public Post Post_Shared { get; set; }
 
         public string postText { get; set; }
+        public DateTime Date  { get; set; }
 
         [DefaultValue(0)]
         public int numOfLikes { get; set; }

@@ -7,13 +7,13 @@ namespace LinkedInMVC.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class profile : IMigrationMetadata
+    public sealed partial class AddDateToPost : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(profile));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddDateToPost));
         
         string IMigrationMetadata.Id
         {
-            get { return "201903270839016_profile"; }
+            get { return "201903271500239_AddDateToPost"; }
         }
         
         string IMigrationMetadata.Source

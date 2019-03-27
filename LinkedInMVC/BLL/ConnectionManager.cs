@@ -7,7 +7,7 @@ using System.Web;
 
 namespace LinkedInMVC.BLL
 {
-    public class ConnectionManager : Repository<Company, ApplicationDbContext>
+    public class ConnectionManager : Repository<Connection_Request, ApplicationDbContext>
     {
 
 

@@ -16,6 +16,8 @@ namespace LinkedInMVC.Models
         public string Grade { get; set; }
         public int FromYear { get; set; }
         public string ToYear { get; set; }
+
+        //public Profile Profile { get; set; }
         public virtual ICollection<UserEducation> UserEducation { get; set; }
 
     }

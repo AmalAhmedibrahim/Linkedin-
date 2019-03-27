@@ -16,6 +16,7 @@ namespace LinkedInMVC.Models
         public ApplicationUserManager UserManager { get; private set; }
         public CompanyManager CompanyManager { get; set; }// unit of work for company manager
         public UserCompanyManager UserCompanyManager { get; set; }// unit of work for usercompany manager
+        public ConnectionManager ConnectionManager { get; set; }// unit of work for usercompany manager
 
 
         public UnitofWork(IOwinContext owinContext)

@@ -9,20 +9,22 @@ namespace LinkedInMVC.BLL
 {
     public class PostManager : Repository<Comment, ApplicationDbContext>
     {
+        private ApplicationDbContext context ;
         public PostManager(ApplicationDbContext context) : base(context)
         {
+            this.context = context;
+            
         }
-        
-        //public static List<Post> GetAllByDate(string userId)
-        //{
-        //    List<Guid> cons = AppManager.linkedInContext
-        //        .Connection_Requeset.Where(c => c.FK_UserId == userId)
-        //        .Where(c => c.IsApproved == true)
-        //        .Select(c => c.FK_Connction_UserId).ToList();
-        //    return AppManager.linkedInContext.Posts
-        //        .Where(p => cons.Any(c => c == p.FK_CreatorId))
-        //        .OrderBy(p => p.Date).ToList();
-        //}
+
+        public static List<Post> GetAllByDate(Guid userId)
+        {
+            List<Guid> cons = context.Connection_Requeset.Where(c => c.FK_UserId == userId)
+                .Where(c => c.IsApproved == true)
+                .Select(c => c.FK_Connction_UserId).ToList();
+            return AppManager.linkedInContext.Posts
+                .Where(p => cons.Any(c => c == p.FK_CreatorId))
+                .OrderBy(p => p.Date).ToList();
+        }
         //public static List<Post> GetAllByTop(string userId)
         //{
         //    /***

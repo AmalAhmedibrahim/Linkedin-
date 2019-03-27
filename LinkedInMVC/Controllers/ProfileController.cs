@@ -31,4 +31,4 @@ namespace LinkedInMVC.Controllers
             return View();
         }
     }
-}
+}   

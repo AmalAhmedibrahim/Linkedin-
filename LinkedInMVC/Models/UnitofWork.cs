@@ -26,7 +26,7 @@ namespace LinkedInMVC.Models
                 return new ExperienceManager(context);
             }
         }
-
+       
         public EducationManager EducationManager
         {
             get
@@ -34,13 +34,22 @@ namespace LinkedInMVC.Models
                 return new EducationManager(context);
             }
         }
-        public UserManager UserDetailsManager
+        public UserEducationManager UserEducationManager
         {
             get
             {
-                return new UserManager(context);
+                return new UserEducationManager(context);
             }
         }
+        public UserExperienceManager UserExperienceManager
+        {
+            get
+            {
+                return new UserExperienceManager(context);
+            }
+        }
+
+
 
 
         public UnitofWork(IOwinContext owinContext)

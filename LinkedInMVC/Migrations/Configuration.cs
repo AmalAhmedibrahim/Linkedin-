@@ -1,5 +1,6 @@
 namespace LinkedInMVC.Migrations
 {
+    using LinkedInMVC.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -18,6 +19,10 @@ namespace LinkedInMVC.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
+
+
+            
+
         }
     }
 }

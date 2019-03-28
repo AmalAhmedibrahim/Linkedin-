@@ -212,23 +212,27 @@
     <Compile Include="BLL\ConnectionManager.cs" />
     <Compile Include="BLL\EducationManager.cs" />
     <Compile Include="BLL\ExperienceManager.cs" />
+    <Compile Include="BLL\HomeManager.cs" />
     <Compile Include="BLL\LikesManager.cs" />
     <Compile Include="BLL\PostsManager.cs" />
     <Compile Include="BLL\Test.cs" />
     <Compile Include="BLL\UserActions.cs" />
     <Compile Include="BLL\UserCompanyManager.cs" />
-    <Compile Include="BLL\UserManager.cs" />
+    <Compile Include="BLL\UserEducationManager.cs" />
+    <Compile Include="BLL\UserExperienceManager.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ConnectionController.cs" />
+    <Compile Include="Controllers\EducationsController.cs" />
+    <Compile Include="Controllers\ExperiencesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201903271500239_AddDateToPost.cs" />
-    <Compile Include="Migrations\201903271500239_AddDateToPost.Designer.cs">
-      <DependentUpon>201903271500239_AddDateToPost.cs</DependentUpon>
+    <Compile Include="Migrations\201903281112123_test.cs" />
+    <Compile Include="Migrations\201903281112123_test.Designer.cs">
+      <DependentUpon>201903281112123_test.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -253,6 +257,9 @@
     <Compile Include="Repository\Repository.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModel\ConnectionViewModel.cs" />
+    <Compile Include="ViewModel\EducationViewModel.cs" />
+    <Compile Include="ViewModel\ExperienceViewModel.cs" />
+    <Compile Include="ViewModel\ProfileViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\LinkedInMVC.dll" />
@@ -488,12 +495,22 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout2.cshtml" />
     <Content Include="Views\Connection\Index.cshtml" />
+    <Content Include="Views\Educations\Create.cshtml" />
+    <Content Include="Views\Educations\Delete.cshtml" />
+    <Content Include="Views\Educations\Details.cshtml" />
+    <Content Include="Views\Educations\Edit.cshtml" />
+    <Content Include="Views\Educations\Index.cshtml" />
+    <Content Include="Views\Experiences\Create.cshtml" />
+    <Content Include="Views\Experiences\Delete.cshtml" />
+    <Content Include="Views\Experiences\Details.cshtml" />
+    <Content Include="Views\Experiences\Edit.cshtml" />
+    <Content Include="Views\Experiences\Index.cshtml" />
+    <Content Include="Views\Profile\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="sass\pages\" />
     <Folder Include="sass\themes\" />
-    <Folder Include="Views\Profile\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -509,8 +526,8 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201903271500239_AddDateToPost.resx">
-      <DependentUpon>201903271500239_AddDateToPost.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903281112123_test.resx">
+      <DependentUpon>201903281112123_test.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

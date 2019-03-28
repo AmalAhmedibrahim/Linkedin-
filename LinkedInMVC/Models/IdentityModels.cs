@@ -22,7 +22,6 @@ namespace LinkedInMVC.Models
         public string Country { get; set; }
         public int NumOfConnections { get; set; }
         public virtual ICollection<UserCompany> UserCompanies { get; set; }
-
         public ICollection<UserEducation> UserEducations = new List<UserEducation>();
         public ICollection<UserExperience> UserExperiences = new List<UserExperience>();
 
